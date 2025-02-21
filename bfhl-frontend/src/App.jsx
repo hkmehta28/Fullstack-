@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>BFHL Round 1 - Harshit Mehta</h1>
+      <h1>BFHL - Harshit Mehta</h1>
 
       {/* Input Section */}
       <form onSubmit={handleSubmit} className='form-container'>
