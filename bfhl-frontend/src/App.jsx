@@ -10,7 +10,7 @@ function App() {
     e.preventDefault();
     try {
       const parsedInput = JSON.parse(input);
-      const res = await fetch('http://localhost:5000/bfhl', {
+      const res = await fetch('https://fullstack-production-355b.up.railway.app/bfhl', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(parsedInput),
